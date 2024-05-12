@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+ <title>Анкета</title>
+ <style>
+  body {
+   font-family: Arial, sans-serif;
+   background: linear-gradient(to bottom, #120a8f, #808080);
+   margin: 0;
+   padding: 0;
+  }
+
+  .container {
+   width: 500px;
+   margin: 0 auto;
+   background-color: #FFF;
+   padding: 20px;
+   border-radius: 10px;
+   margin-top: 50px;
+  }
+
+  h1 {
+   text-align: center;
+  }
+
+  form {
+   margin-top: 30px;
+  }
+
+  label {
+   display: block;
+   margin-bottom: 10px;
+   color: #555;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select {
+   width: 100%;
+   padding: 8px;
+   border: 1px solid #CCC;
+   border-radius: 5px;
+   margin-bottom: 20px;
+  }
+
+  button[type="submit"] {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   background-color: #333;
+   color: #FFF;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+  }
+  nav {
+        text-align: center;
+    }
+    nav a {
+        font-size: 20px;
+        margin: 0 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+    nav a:hover {
+        color: yellow;}
+ </style>
+</head>
+<body>
+ <nav>
+        <a href="C:/ВПКР_МИ-19/Котлярова/сайт/index.html">Планета танца</a>
+        <a href="C:/ВПКР_МИ-19/Котлярова/сайт/dva.html">Виды студий</a>
+        <a href="C:/ВПКР_МИ-19/Котлярова/сайт/tri.html">Анкета</a>
+    </nav>
+ <div class="container">
+  <h1>Анкета</h1>
+  <form>
+   <label for="name">Имя:</label>
+   <input type="text" id="name" name="name" required>
+
+   <label for="email">Email:</label>
+   <input type="email" id="email" name="email" required>
+
+   <label for="age">Возраст:</label>
+   <input type="text" id="age" name="age" required>
+
+   <label for="gender">Студии Сергиев-Посад:</label>
+   <select id="gender" name="gender" required>
+    <option value="">Выберите студию</option>
+    <option value="male">ТРИАШ</option>
+    <option value="female">TODES</option>
+    <option value="other">KRITA DANCE</option>
+    <option value="other">LVA</option>
+   </select>
+
+   <button type="submit">Отправить</button>
+  </form>
+ </div>
+ <footer>
+        <Font color="#ffffff"><p align="center">Контактная информация</p>
+        <p align="center">Адрес: г.Сергиев-Посад прк. Красной армии 251</p>
+        <p align="center">Телефон: +7 977 525 64 01</p>
+        <p align="center">Email: info@yandex.ru</p>
+    </Font>
+    </footer>
+</body>
+</html>
