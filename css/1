@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+<title>Планета танцев</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #000;
+    }
+    nav {
+        text-align: center;
+    }
+    nav a {
+        font-size: 20px;
+        margin: 0 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+    nav a:hover {
+        color: yellow;}
+    }
+    img {
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <a href="C:/ВПКР_МИ-19/Котлярова/сайт/index.html">Планета танца</a>
+        <a href="C:/ВПКР_МИ-19/Котлярова/сайт/dva.html">Виды студий</a>
+        <a href="C:/ВПКР_МИ-19/Котлярова/сайт/tri.html">Анкета</a>
+    </nav>
+    <img src='E:/сайт/foto/aa.jpg'>
+    <footer>
+        <Font color="#ffffff"><p align="center">Контактная информация</p>
+        <p align="center">Адрес: г.Сергиев-Посад прк. Красной армии 251</p>
+        <p align="center">Телефон: +7 977 525 64 01</p>
+        <p align="center">Email: info@yandex.ru</p>
+    </Font>
+    </footer>
+</body>
+</html>                                              
